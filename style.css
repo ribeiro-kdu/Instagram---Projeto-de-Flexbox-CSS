@@ -61,7 +61,7 @@ body {
 
 
 .celular img {
-    height: 90vh;
+    height: 80vh;
 }
 
 .foto-perfil {
@@ -106,12 +106,12 @@ body {
     border-radius: 4px;
 }
 
-.remove {
+.remove, .signature a {
     color: #0095f6;
     margin-top: 1rem;
 }
 
-.switch p {
+.switch p, .signature p {
     color: rgb(160, 160, 160);
 }
 
@@ -145,6 +145,13 @@ body {
     height: 3rem;
     width: 10rem;
     background-size: cover;
+}
+
+.signature {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 5%;
 }
 
 @media(max-width: 1024px) {
